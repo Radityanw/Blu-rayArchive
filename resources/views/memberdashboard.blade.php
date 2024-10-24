@@ -137,8 +137,8 @@
                                             <td>{{ $rental->id }}</td>
                                             <td>{{ $rental->bluray->title }}</td>
                                             <td>{{ $rental->due_date }}</td>
-                                            <td>{{ $rental->fine }}</td>
                                             <td>{{ $rental->status }}</td>
+                                            <td>{{ $rental->fine }}</td>
                                             <td>
                                                 @if($rental->status === 'Returned Requested')
                                                     <!-- Show Approve Return button when status is 'Returned Requested' -->
