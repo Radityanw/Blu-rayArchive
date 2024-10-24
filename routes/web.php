@@ -18,7 +18,7 @@ use App\Http\Controllers\ProductController;
 
 
 Route::get('/', function () {
-    return view('all');
+    return view('welcome');
 });
 Route::get('/bluraydetail', function () {
     return view('bluraydetail');
