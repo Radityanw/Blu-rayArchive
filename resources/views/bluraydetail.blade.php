@@ -253,12 +253,12 @@
             });
         });
 
-        // $('.js-addcart-detail').each(function(){
-        //     var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-        //     $(this).on('click', function(){
-        //         swal(nameProduct, "Succesfully rented, enjoy!", "success");
-        //     });
-        // });
+         $('.js-addcart-detail').each(function(){
+             var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+             $(this).on('click', function(){
+                 swal(nameProduct, "Succesfully rented, enjoy!", "success");
+            });
+        });
     </script>
     <script src="{{ asset('vendor/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
     <script>

@@ -6,6 +6,7 @@ use App\Models\Bluray;
 use App\Models\Rental;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
+use PDF; 
 
 class RentController extends Controller
 {
@@ -51,6 +52,17 @@ class RentController extends Controller
     $rental->save();
     return back()->with('success', 'Blu-ray rented successfully!');
 }
+// public function generateRentStatusPDF($rentId)
+// {
+//     // Fetch the rent details from the database
+//     $rent = Rental::find($rentId);
+
+//     // Load the view and pass the rent data
+//     $pdf = PDF::loadView('rents.rent-status-pdf', compact('rent'));
+
+
+//     return $pdf->stream('rent-status.pdf'); 
+// }
 
     
 }

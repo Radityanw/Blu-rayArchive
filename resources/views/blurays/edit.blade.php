@@ -71,7 +71,6 @@
         </div>
     </div>
 
-    <!-- Submit Button -->
     <div class="mb-3">
         <button type="submit" class="btn btn-primary">Update Blu-ray</button>
     </div>
@@ -82,7 +81,6 @@
         </div>
     </div>
 
-    <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

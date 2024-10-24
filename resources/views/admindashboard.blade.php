@@ -105,12 +105,11 @@
             <p class="sidebar-menu-title">Menu</p>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="/admindashboard">
               <i class="typcn typcn-device-desktop menu-icon"></i>
-              <span class="menu-title">Homepage
+              <span class="menu-title">Main Dashboard
             </a>
           </li>
-          
         </ul>
         <ul class="sidebar-legend">
           

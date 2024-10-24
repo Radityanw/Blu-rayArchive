@@ -20,11 +20,11 @@ use App\Http\Controllers\ProductController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/bluraydetail', function () {
-    return view('bluraydetail');
-});
+// Route::get('/bluraydetail', function () {
+//     return view('bluraydetail');
+// });
 Route::post('/rent-bluray', [RentController::class, 'rent'])->name('rent.bluray');
-Route::get('/register', [RegisteredUserController::class, 'create'])
+Route::get('/', [RegisteredUserController::class, 'create'])
                 ->middleware('guest')
                 ->name('register');
 Route::post('/register', [RegisteredUserController::class, 'store'])
@@ -43,6 +43,7 @@ Route::get('/dashboard', function () {
     }
 })->name('dashboard')->middleware('auth');
 Route::get('/admindashboard', [AdminDashboardController::class, 'index'])->name('admindashboard')->middleware('auth');
+Route::get('/admindashboardbluray', [AdminDashboardController::class, 'index'])->name('admindashboard')->middleware('auth');
 Route::get('/memberdashboard', [MemberDashboardController::class, 'index'])->name('memberdashboard')->middleware('auth');
 
 Route::get('bluray.create', [BluRayController::class, 'create'])->name('blurays.create')->middleware('admin');
