@@ -34,3 +34,6 @@ https://docs.google.com/document/d/12hlOMb5do8iwdK1A4JU2mGxs9ag2AtfWTRGnlkGl-Gg/
 
 
 ## Screen Recorder Demo - Penjelasan Website
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Z_zfUCgoR78/0.jpg)](https://www.youtube.com/watch?v=Z_zfUCgoR78)
+
+
