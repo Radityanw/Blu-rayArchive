@@ -2,7 +2,7 @@
 
 ## Deskripsi Proyek
 
-Blu-ray Archive adalah sebuah adalah sebuah aplikasi berbasis web yang memungkinkan pengguna untuk menyewa Blu-ray. Aplikasi ini menawarkan berbagai fitur seperti fitur pencarian berdasarkan genre dan judul, menentukan lama peminjaman, dan manajemen untuk admin
+Blu-ray Archive adalah sebuah adalah sebuah aplikasi berbasis web yang memungkinkan pengguna untuk menyewa Blu-ray. Aplikasi ini menawarkan berbagai fitur seperti fitur pencarian berdasarkan genre dan judul, menentukan lama peminjaman, dan dashboard manajemen untuk admin
 
 
 
